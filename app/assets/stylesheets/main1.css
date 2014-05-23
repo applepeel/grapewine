@@ -1,0 +1,95 @@
+div.box_off {
+    background-color:#F8F8F8;
+    color:#191919;
+}
+
+div.box_on {
+    background-color:#3E3E3E;
+    color:#999999;
+}
+
+#ds_h div{width:100%;left:1px;top:1px}
+#ds .hh1{height:1px}
+#ds .hh2{height:2px}
+#ds .hh3{height:3px}
+#ds .hh4{height:4px}
+#ds .hh5{height:5px}
+#ds .hh6{height:6px}
+#ds_v div{height:9999px; left:1px;top:1px}
+#ds_v{height:0;}
+#ds .v1{width:1px}
+#ds .v2{width:2px}
+#ds .v3{width:3px}
+#ds .v4{width:4px}
+#ds .v5{width:5px}
+#ds .v6{width:6px}
+
+#mapa_container{
+	position:relative;
+	display:block;
+}
+
+.ds{background:#000;position:absolute;z-index:999;overflow:hidden}
+#ds .o1{ opacity:.1;filter:alpha(opacity=10)}
+#ds .o2{ opacity:.08;filter:alpha(opacity=8)}
+#ds .o3{ opacity:.06;filter:alpha(opacity=6)}
+#ds .o4{ opacity:.04;filter:alpha(opacity=4)}
+#ds .o5{ opacity:.02;filter:alpha(opacity=2)}
+
+.direccoes_from
+{
+    width: 200px; 
+    padding: 5px; 
+    border: 1px solid #ddd;
+}
+
+input
+{
+    border:0px;
+    font-family:Arial, Tahoma;
+    font-size:11px;
+}
+
+.textarea_forms
+{
+    width:300px;
+    height:50px;
+    border:solid 1px #ddd;
+    padding:4px;
+    font-family:Arial, Tahoma;
+    font-size:11px;
+}
+
+.secure_forms
+{
+    width:50px;
+    border:solid 1px #ddd;
+    padding:4px;
+}
+
+.input_forms
+{
+    width:300px;
+    border:solid 1px #ddd;
+    padding:4px;
+    font-family:Arial, Tahoma;
+    font-size:11px;
+}
+
+.combo_form
+{
+    font-family:Arial, Tahoma;
+    margin:5px;
+    border:0px;
+    padding-top:2px;
+    color:#666666;
+    background-color:#333333;
+    font-size:11px;
+}
+
+.btn_actualizar {
+    width:70px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
