@@ -36337,3 +36337,406 @@ Served asset /topo.png - 304 Not Modified (1ms)
 
 Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-11 00:36:37 +0800
 Served asset /bg_menu.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Connecting to database specified by database.yml
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 13.1ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.4ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /add.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /cufon-yui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /main1.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /main.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /main.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /jquery.easing.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /swfobject.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /logo.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:54:00 +0800
+Served asset /contact.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:54:01 +0800
+Served asset /bg01.png - 200 OK (12ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:54:01 +0800
+Served asset /topo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:54:01 +0800
+Served asset /bg_menu.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2.0ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /add.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /main1.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /contact.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /bg01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /topo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:54:59 +0800
+Served asset /bg_menu.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /add.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /main1.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /contact.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /bg01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /topo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:56:41 +0800
+Served asset /bg_menu.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60.4ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /add.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /main1.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /contact.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /bg01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /topo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:57:05 +0800
+Served asset /bg_menu.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2.2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /add.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /main1.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /contact.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /bg01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /topo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:58:37 +0800
+Served asset /bg_menu.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Processing by WelcomeController#show as HTML
+  Rendered welcome/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.5ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/add.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /add.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.scroll.pack.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /jquery.scroll.pack.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /jquery.easing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main1.css" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /main1.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Andron_Freefont_LAT_Reg_400.font.js" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /Andron_Freefont_LAT_Reg_400.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /contact.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg01.png" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /bg01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topo.png" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /topo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_menu.png" for 127.0.0.1 at 2014-05-24 11:58:59 +0800
+Served asset /bg_menu.png - 304 Not Modified (0ms)
