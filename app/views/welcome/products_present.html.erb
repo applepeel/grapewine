@@ -1,0 +1,148 @@
+
+    <form name="form" method="post" action="" id="form">
+
+        <div id="container">
+            <div id="topo">
+                <a href="/"><img src="/assets/logo.jpg" alt="Logo" border="0" /></a>
+            </div>
+            <div id="conteudo">
+                <div id="menu">
+                    <div id="nav">
+                        <ul class="nobullet">
+                            <li><a title="公司简介" class="menu" href="/">公司首页</a></li>
+                            <li><a title="产品列表" class="menu_on" href="/products">产品列表</a></li>
+                            <a class="menu" style="padding-left:12px" href="/products/france">法国名品</a><br/>
+                            <a class="menu" style="padding-left:12px" href="/products/wedding">婚宴推荐</a><br/>
+                            <a class="menu_on" style="padding-left:12px" href="/products/present">礼品推荐</a><br/>
+                            <a class="menu" style="padding-left:12px" href="/products/lady">女士专享</a><br/>
+                            <li><a title="联系我们" class="menu" href="/about_us">关于我们</a></li>
+                            <li><br /><br /></li>
+                        </ul>
+                    </div>
+                    <%= render 'layouts/desc'%>
+                </div>
+                <div id="paginas">
+                    
+<div id="mm" class="sc_menu">
+  <ul class="sc_menu">
+
+            <li>
+                <div class="prodlist" onclick="" onmouseover="this.style.cursor='pointer'">
+                    <div style="width:269px; height:298px; text-align:center; clear:both">
+                        <img id="" src="/assets/products/aus/2010牛头.png" style="border-width:0px;border:0" />
+                    </div>
+                    <div style="width:229px; height:258px; text-align:left; clear:both; padding:20px">
+                        <h2 class="prodlist_nome">T-Bone<br>2010, 75L</h2>
+                        <br />
+                        <h3 class="prodlist_resumo">产区: 澳大利亚<br />酒精度: 14.5%<br />葡萄品种: 西拉<br />级别: AOC</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="prodlist" onclick="" onmouseover="this.style.cursor='pointer'">
+                    <div style="width:269px; height:298px; text-align:center; clear:both">
+                        <img id="" src="/assets/products/aus/澳洲水晶布鲁克.png" style="border-width:0px;border:0" />
+                    </div>
+                    <div style="width:229px; height:400px; text-align:left; clear:both; padding:20px">
+                        <h2 class="prodlist_nome">水晶布鲁克<br>2008, 75L</h2>
+                        <br />
+                        <h3 class="prodlist_resumo">产区: 澳大利亚 南澳<br />酒精度: 14% vol<br />葡萄品种: 赤霞珠 梅洛<br />级别: AOC</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="prodlist" onclick="" onmouseover="this.style.cursor='pointer'">
+                    <div style="width:269px; height:298px; text-align:center; clear:both">
+                        <img id="" src="/assets/products/chi/艾迪奥精选赤霞珠红酒.png" style="border-width:0px;border:0" />
+                    </div>
+                    <div style="width:229px; height:258px; text-align:left; clear:both; padding:20px">
+                        <h2 class="prodlist_nome">艾迪奥 精选赤霞珠红酒<br>2010, 75L</h2>
+                        <br />
+                        <h3 class="prodlist_resumo">产区: 智利<br />酒精度: 13.5%<br />葡萄品种: 赤霞珠100%<br />级别: AOC</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="prodlist" onclick="" onmouseover="this.style.cursor='pointer'">
+                    <div style="width:269px; height:298px; text-align:center; clear:both">
+                        <img id="" src="/assets/products/fra/巴斯蒂波尔多干红葡萄酒.png" style="border-width:0px;border:0" />
+                    </div>
+                    <div style="width:229px; height:258px; text-align:left; clear:both; padding:20px">
+                        <h2 class="prodlist_nome">巴斯蒂 波尔多 干红葡萄酒<br>2009, 75L</h2>
+                        <br />
+                        <h3 class="prodlist_resumo">产区: 法国 波尔多<br />酒精度: 13％vol<br />葡萄品种: 赤霞珠、梅洛<br />级别: AOC<br />饮酒场合: 婚礼</h3>
+                    </div>
+                </div>
+            </li>
+        
+        
+        
+  </ul>
+</div>
+
+
+
+<script type= "text/javascript">
+$(function(){
+    //Get our elements for faster access and set overlay width
+    var div = $('div.sc_menu'),
+        ul = $('ul.sc_menu'),
+        ulPadding = 0;
+    
+    //Get menu width
+    var divWidth = div.width();
+
+    //Remove scrollbars 
+    div.css({overflow: 'hidden'});
+    
+    //Find last image container
+    var lastLi = ul.find('li:last-child');
+    
+    //When user move mouse over menu
+    div.mousemove(function(e){
+        //As images are loaded ul width increases,
+        //so we recalculate it each time
+        var ulWidth = lastLi[0].offsetLeft + lastLi.outerWidth() + ulPadding;   
+        var left = (e.pageX - div.offset().left) * (ulWidth-divWidth) / divWidth;
+        div.scrollLeft(left);
+    });
+});
+</script>
+
+<script type="text/javascript">
+    function resizeDivs() {
+        var screenWidth = document.getElementById("form").offsetWidth;
+        //alert(screenWidth);
+        var itemWidth = 270;
+
+        if (screenWidth >= 1830)
+            document.getElementById("mm").style.width = itemWidth * 6 + "px";
+        else if (screenWidth >= 1680)
+            document.getElementById("mm").style.width = itemWidth * 5 + "px";
+        else if (screenWidth >= 1600)
+            document.getElementById("mm").style.width = itemWidth * 5 + "px";
+        else if (screenWidth >= 1440)
+            document.getElementById("mm").style.width = itemWidth * 4 + "px";
+        else if (screenWidth >= 1341)
+            document.getElementById("mm").style.width = itemWidth * 4 + "px";
+        else if (screenWidth >= 1280)
+            document.getElementById("mm").style.width = itemWidth * 3 + "px";
+        else if (screenWidth >= 1127)
+            document.getElementById("mm").style.width = itemWidth * 3 + "px";
+        else if (screenWidth >= 999)
+            document.getElementById("mm").style.width = itemWidth * 2 + "px";
+        else
+            document.getElementById("mm").style.width = itemWidth * 2 + "px";
+    }
+
+   resizeDivs();
+</script>
+
+                </div>
+            </div>
+        </div>
+    </form>
+

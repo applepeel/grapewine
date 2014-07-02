@@ -437,8 +437,8 @@ div.pagination span.disabled
 {
     display:block;
     width:269px;
-    height:520px;
-    background:url('/assets/bg_prodlist_off.png') repeat-x top left;
+    height:600px;
+    background: #000 url('/assets/bg_prodlist_off.png') repeat-x top left;
     margin-right:1px;
     color:#fff;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -449,7 +449,7 @@ div.pagination span.disabled
 {
     display:block;
     width:269px;
-    height:520px;
+    height:600px;
     background:url('/assets/bg_prodlist_on.png') repeat-x top left;
     margin-right:1px;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
